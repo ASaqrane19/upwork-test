@@ -1,0 +1,72 @@
+/* road-map */
+.container-map::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #00ffc4;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    height: 102%;
+}
+
+.container-map-disable::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: grey;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    height: 102%;
+}
+
+.roadmap-section-heading::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0%;
+    left: -11px;
+    background: #00ffc4;
+    border: 4px solid #142634;
+    border-radius: 50%;
+    background-size: 100%;
+    z-index: 1;
+}
+
+.roadmap-section-heading-disable::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0%;
+    left: -11px;
+    background: grey;
+    border: 4px solid #142634;
+    border-radius: 50%;
+    background-size: 100%;
+    z-index: 1;
+}
+
+.container-map {
+    color: white !important;
+}
+
+.container-map ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.date-about-roadmap {
+    padding-left: 37px;
+    font-size: 16px;
+    color: rgb(146, 155, 255);
+}
+
+.container-map li,
+.container-map p {
+    padding-left: 40px;
+    margin: 0 !important;
+    font-size: 17px;
+}
